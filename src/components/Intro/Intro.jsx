@@ -30,7 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Aktarul Raj</span>
           <span>
-            Full stack Web Developer with high level of experience in web development
+            Full stack Web Developer with high level of experience 
             and python programming and gui development in tkinter
           </span>
         </div>
