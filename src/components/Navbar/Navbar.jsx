@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import logo from "../../img/official_logo.png"
 const navbar = () => {
+
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}

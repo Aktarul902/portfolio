@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext ,useEffect} from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
@@ -16,7 +16,11 @@ import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
-
+  useEffect(() => {
+    // document.title("Aktarul Raj - Home")
+    console.log("h")
+  }, [])
+  
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;

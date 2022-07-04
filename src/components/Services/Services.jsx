@@ -10,6 +10,7 @@ import Resume from './resume.pdf';
 
 const Services = () => {
   // context
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
